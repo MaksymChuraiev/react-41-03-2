@@ -6,7 +6,7 @@ import EventItem from 'components/EventItem/EventItem';
 const EventsSubView = () => {
   const event = useFetchEvent();
   const location = useLocation();
-  console.log(location);
+
   return (
     <Container>
       {!event && <h2>Loading...</h2>}
